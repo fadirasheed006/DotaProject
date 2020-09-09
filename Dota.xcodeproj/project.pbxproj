@@ -12,6 +12,8 @@
 		8D8B2C5E25076CDE003451AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D8B2C5C25076CDE003451AF /* Main.storyboard */; };
 		8D8B2C6025076CE0003451AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D8B2C5F25076CE0003451AF /* Assets.xcassets */; };
 		8D8B2C6325076CE0003451AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D8B2C6125076CE0003451AF /* LaunchScreen.storyboard */; };
+		8D8B2C6B25076E29003451AF /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8B2C6A25076E29003451AF /* CollectionViewCell.swift */; };
+		8D8B2C6D2507777E003451AF /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8B2C6C2507777E003451AF /* Hero.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		8D8B2C5F25076CE0003451AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D8B2C6225076CE0003451AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D8B2C6425076CE0003451AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D8B2C6A25076E29003451AF /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		8D8B2C6C2507777E003451AF /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				8D8B2C5F25076CE0003451AF /* Assets.xcassets */,
 				8D8B2C6125076CE0003451AF /* LaunchScreen.storyboard */,
 				8D8B2C6425076CE0003451AF /* Info.plist */,
+				8D8B2C6A25076E29003451AF /* CollectionViewCell.swift */,
+				8D8B2C6C2507777E003451AF /* Hero.swift */,
 			);
 			path = Dota;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			files = (
 				8D8B2C5B25076CDE003451AF /* ViewController.swift in Sources */,
 				8D8B2C5925076CDE003451AF /* AppDelegate.swift in Sources */,
+				8D8B2C6B25076E29003451AF /* CollectionViewCell.swift in Sources */,
+				8D8B2C6D2507777E003451AF /* Hero.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
